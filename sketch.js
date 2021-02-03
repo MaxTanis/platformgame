@@ -22,7 +22,26 @@ function startScreen() {
 }
 
 function levelScreen() {
-  background(100, 100, 100)
+  // print(mouseX, mouseY)
+  background(255);
+  // eerste rij
+  fill(0, 255, 0);
+  rect(50, 50, 100, 75);
+  fill(255, 0, 255);
+  rect(175, 50, 100, 75);
+  fill(255, 0, 0);
+  rect(300, 50, 100, 75);
+  fill(0, 0, 255);
+  rect(425, 50, 100, 75);
+  // tweede rij
+  fill(0, 255, 0);
+  rect(50, 150, 100, 75);
+  fill(255, 0, 255);
+  rect(175, 150, 100, 75);
+  fill(255, 0, 0);
+  rect(300, 150, 100, 75);
+  fill(0, 0, 255);
+  rect(425, 150, 100, 75);
 }
 
 function mousePressed() {
